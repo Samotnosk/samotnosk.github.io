@@ -1,0 +1,13 @@
+main{
+    text-align: center;
+}
+main ul li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 10px 0 10px 0;
+}
+strong{
+    color: white;
+    font-family: fantasy;
+    font-size: 30px;
+}

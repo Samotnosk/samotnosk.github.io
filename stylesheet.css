@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+*{
+    margin: 0px;
+    max-width: 1900px;
+}
+html{
+    
+    background-image: url(imgs/Circuito.jpg);
+}
+header{
+    margin: 0px;
+    background-color: #332175;
+    color: #EDBB91;
+    text-align: center;
+    height: 200px;
+}
+nav ul{
+    float:left;
+    position: absolute;
+
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    margin-top: 180px;
+
+}
+nav li{
+    margin: 20px;
+    margin-top: 30%;
+    display: inline;
+    
+}
+nav a{
+    color: #EDBB91;
+    text-decoration: none;
+}
+nav li:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: 30px;
+    transition: 500ms;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    padding-top: 40px;
+    font-size: 50px;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+main{
+    background-color: rgba(0, 0, 0, 0.919);
+    height: 100%;
+    margin: 0px;
+    border: rgba(0, 0, 0, 0.638) solid 30px;
+}
+main p{
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}

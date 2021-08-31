@@ -1,0 +1,21 @@
+main{
+    color: white;
+    font-family: fantasy;
+    text-align: center;
+    padding: 20px;
+}
+main li{
+    padding-top: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: fantasy;
+}
+a:hover{
+    color: blue;
+}
+main p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}

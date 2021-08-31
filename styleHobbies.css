@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+main{
+    color: white;
+    text-align: center;
+}
+main strong{
+    color: white;
+    text-decoration: overline;
+    font-size: 30px;
+}
+main strong:hover{
+    text-decoration: underline;
+    animation: pulse 2s infinite;
+}
+@keyframes pulse{
+    0%{
+        color: white;
+        text-decoration: overline;
+    }
+    100%{
+        color: #d3670f;
+        text-decoration: underline;
+    }
+}
+ul{
+    font-size: 20px;
+}
